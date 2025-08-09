@@ -5,11 +5,9 @@ import "aos/dist/aos.css";
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
-
 import star from '../images/star.png'
 import minStar from '../images/min_star.png'
 import arrow from '../images/arrow.png'
-
 
 import man from '../images/man.png'
 import chart from '../images/chart.png'
