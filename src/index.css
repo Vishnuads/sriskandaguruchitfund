@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+
+
+//font style
+:root {
+  --font-yoonche: 'YDYoonche B', sans-serif;
+  --font-silo: 'Silo Soft ExtraBold', sans-serif;
+}
+
+.font-yoonche {
+  font-family: var(--font-yoonche);
+}
+
+.font-silo {
+  font-family: var(--font-silo);
+}
+
+
+
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spinSlow {
+  animation: spinSlow 5.2s linear infinite;
+  transform-origin: center;
+}
